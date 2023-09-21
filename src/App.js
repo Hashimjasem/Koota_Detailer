@@ -13,7 +13,7 @@ function App() {
       <Hero/>
       <BeforeAfter/>
       <Packages/>
-      <div className="w-full h-[8rem]"></div>
+      <div className="w-full h-[28rem] bg-[#181520]"></div>
     </div>
   );
 }
