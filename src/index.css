@@ -1,3 +1,77 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+* {
+    background: #181520;
+    font-family: 'Inter', sans-serif;
+}
+
+.packageOne {
+    background-image: url('../src/Assets/WI1D6140-810x540.webp');
+    animation: pan-image 15s linear infinite;
+}
+.packageTwo {
+    background-image: url('../src/Assets/5890a22f90b4627992b23d4360feaca1f0e019a5.jpeg');
+    animation: pan-image 15s linear infinite;
+}
+.packageThree {
+    background-image: url('../src/Assets/Best-Service-Centers-For-Car-Detailing-in-Karachi-1.jpeg');
+    animation: pan-image 15s linear infinite;
+}
+
+
+
+@keyframes pan-image {  
+    0% {
+      background-position: 36% 42%;
+      background-size: 200%;
+    }
+    
+    20% {
+      background-position: 30% 35%;
+      background-size: 200%;
+    }
+    
+    20.0001% { /* -- View 2 -- */
+      background-position: 60% 85%;
+      background-size: 500%;
+    }
+    
+    40% {
+      background-position: 49% 81%;
+      background-size: 500%;
+    }
+    
+    40.0001% { /* -- View 3 -- */
+      background-position: 80% 42%;
+      background-size: 300%;
+    }
+    
+    60% {
+      background-position: 84% 33%;
+      background-size: 300%;
+    }
+    
+    60.0001% { /* -- View 4 -- */
+      background-position: 0% 0%;
+      background-size: 300%;
+    }
+    
+    80% {
+      background-position: 15% 4%;
+      background-size: 300%;
+    }
+    
+    80.0001% { /* -- View 5 -- */
+      background-position: 80% 10%;
+      background-size: 300%;
+    }
+    
+    100% {
+      background-position: 72% 14%;
+      background-size: 300%;
+    }
+  }
