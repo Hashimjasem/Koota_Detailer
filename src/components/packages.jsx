@@ -1,7 +1,7 @@
 function Packages() {
     return (
         <div className='bg-[#121018]'>
-            <p className="text-white text-[2rem] font-bold text-center mb-10 pt-6 ">Packages</p>
+            <p className="text-white text-[2rem] font-bold text-center mb-10 pt-6 ">Our Packages</p>
 
 
             <div class="exterior-box box">
