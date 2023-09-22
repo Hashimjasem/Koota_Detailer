@@ -8,12 +8,12 @@ import Packages from './components/packages';
 function App() {
 
   return (
-    <div className="">
+    <div className="w-full bg-[#181520]">
       <Nav/>
       <Hero/>
-      <BeforeAfter/>
+      {/* <BeforeAfter/> */}
       <Packages/>
-      <div className="w-full h-[28rem] bg-[#181520]"></div>
+      <div className="w-full h-[11rem] bg-[#121018]"></div>
     </div>
   );
 }
