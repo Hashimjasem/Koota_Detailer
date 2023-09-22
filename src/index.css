@@ -37,8 +37,6 @@
   inherits: true;
 }
 
-
-
 :root {
 	--d: 2500ms;
 	--angle: 90deg;
